@@ -26,3 +26,5 @@ The Code Foundation is going all out with "The Vison" which enables quick search
 2. We will then index based on various techniques to collect, parse and store the data to facilitate fast and accurate information retrival. 
 
 3. As per the search query Vison would look into it's indexed data and as per the ranking of the content throw back the most relevant and popular results.
+
+Happy Searching :D
