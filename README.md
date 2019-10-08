@@ -22,9 +22,22 @@ These search engines help with searching through words or phrases but what if yo
 The Code Foundation is going all out with "The Vison" which enables quick search through images, audio and video.
 
 1. Our especially designed crawler program will travel all over the web and download multimedia(images, videos etc) contents on our servers.
-
 2. We will then index based on various techniques to collect, parse and store the data to facilitate fast and accurate information retrival. 
-
 3. As per the search query Vison would look into it's indexed data and as per the ranking of the content throw back the most relevant and popular results.
+
+### To-Do  (Ideas) 
+
+The frontend will be the interface for our users to search web via image. 
+
+![](E:\Vison-WoC-Frontend\images\frontend2.png)
+
+- [ ] `Link`, `Upload`, `Camera`, `Video`, `Seach Button`, `Settings`, `Location`  are all buttons with specific purpose which will belisted below. `Javascript` is required here. We don't have any `js` script yet. So it's up to the participants. 
+- [ ] `Link`: Should be able to take any image URL and send it to the `flask` backend. 
+- [ ] `Upload`: Should be able to upload the image from the local file folder. Thus it will be a form to upload image file and send to the `flask` backend. The size of the file is to be considered.
+- [ ] `Camera`: Should be able to capture the image via web-cam if available. 
+- [ ] `Video`: Should be able to upload the video from the local file folder. Thus it will be a form to upload video file and send to the `flask` backend. The size of the file is to be considered. (We are not considering this for WoC-19)
+- [ ] `Search Button`: The user will type in the search query or use any of the mentioned buttons to either link, upload or capture image. The search button will request the server to return with relevant data. 
+- [ ] `Location`: This will show the current location of the user. Just the state and country is required. If possible it should be done on the client side itself. 
+- [ ] `Setting`: Coming Soon.
 
 Happy Searching :D
