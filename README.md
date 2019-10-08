@@ -31,7 +31,7 @@ The frontend will be the interface for our users to search web via image.
 
 ![](E:\Vison-WoC-Frontend\images\frontend2.png)
 
-- [ ] `Link`, `Upload`, `Camera`, `Video`, `Seach Button`, `Settings`, `Location`  are all buttons with specific purpose which will belisted below. `Javascript` is required here. We don't have any `js` script yet. So it's up to the participants. 
+- [ ] `Link`, `Upload`, `Camera`, `Video`, `Seach Button`, `Settings`, `Location`  are all buttons with specific purpose which will be listed below. `Javascript` is required here. We don't have any `js` script yet. So it's up to the participants. 
 - [ ] `Link`: Should be able to take any image URL and send it to the `flask` backend. 
 - [ ] `Upload`: Should be able to upload the image from the local file folder. Thus it will be a form to upload image file and send to the `flask` backend. The size of the file is to be considered.
 - [ ] `Camera`: Should be able to capture the image via web-cam if available. 
