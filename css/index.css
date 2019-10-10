@@ -38,7 +38,14 @@ body {
 .box_div .box_body .logo_div {
   justify-content: center;
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) and (min-height: 600px) {
+  .box_div .box_body .logo_div img {
+    height: 6rem;
+    position: relative;
+    bottom: 1.5rem;
+  }
+}
+@media (min-width: 600px) and (min-height: 320px) {
   .box_div .box_body .logo_div img {
     height: 6rem;
   }
@@ -46,11 +53,15 @@ body {
 @media (min-width: 801px) {
   .box_div .box_body .logo_div img {
     height: 9rem;
+    position: relative;
+    bottom: 2rem;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1281px) {
   .box_div .box_body .logo_div img {
     height: 12rem;
+    position: relative;
+    bottom: 3rem;
   }
 }
 .box_div .box_body .input_div {
