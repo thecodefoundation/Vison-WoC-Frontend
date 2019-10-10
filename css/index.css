@@ -85,6 +85,7 @@ body {
 }
 .box_div .footer .location .loc1 {
   display: flex;
+  align-items: center;
 }
 .box_div .footer .location .loc1 h6 {
   margin: 0;
