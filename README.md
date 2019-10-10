@@ -1,4 +1,9 @@
-# Vison-WoC-Frontend
+
+# VISON
+
+![poster](https://github.com/thecodefoundation/Vison-WoC-Frontend/blob/master/images/poster.jpeg)
+
+## Vison-WoC-Frontend
 Repository for Vison Frontend for Winter of Code 2019.
 
 ## Current Scenario!
@@ -39,5 +44,16 @@ The frontend will be the interface for our users to search web via image.
 - [ ] `Search Button`: The user will type in the search query or use any of the mentioned buttons to either link, upload or capture image. The search button will request the server to return with relevant data. 
 - [ ] `Location`: This will show the current location of the user. Just the state and country is required. If possible it should be done on the client side itself. 
 - [ ] `Setting`: Coming Soon.
+
+### How to contact us:
+
+In the initial bonding period you can talk to the mentors and clear any doubt that you may have regarding the project. Head over to the official slack workspace for The Code Foundation and join our channel `#winterofcode` [here](https://tinyurl.com/tcf-woc19). In case of any doubts hit us up on slack and we will get back to you.
+
+### Mentors: 
+
+| Name | Github |
+| -- | -- |
+| Rashmi Jhunjhunwala | [rashmijhunjhunwala](https://github.com/rashmijhunjhunwala) |
+| Kasturi Nandi | [kasturi14](https://github.com/kasturi14) |
 
 Happy Searching :D
