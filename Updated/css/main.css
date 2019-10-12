@@ -12,6 +12,10 @@
         margin: 30px;
     }
     
+    .settings-svg :hover img {
+        animation: bounce 0.4s linear;
+    }
+    
     @media (min-width: 320px) and (min-height: 600px) {
         .logo img {
             height: 8rem;
@@ -47,6 +51,11 @@
         color: #ffffff;
     }
     
+    .heading label {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+    
     .lists {
         margin-left: 50px;
         margin-right: 50px;
@@ -61,7 +70,12 @@
         position: absolute;
         transform: translate(-0%, -100%);
         margin-left: 50px;
-        margin-top: 92px;
+    }
+    
+    .back {
+        margin-left: 100%;
+        transform: translate(-0%, -100%);
+        margin-top: -30px;
     }
     
     input[type=text] {
@@ -96,4 +110,62 @@
         100% {
             transform: scale(1);
         }
+    }
+    
+    input[type=submit] {
+        border: 0;
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+    
+     ::placeholder {
+        color: whitesmoke;
+        opacity: 0.6;
+    }
+    
+    .file-input {
+        display: inline-block;
+        text-align: left;
+        background: #fff;
+        padding: 16px;
+        width: 350px;
+        position: relative;
+        border-radius: 3px;
+    }
+    
+    .file-input>[type='file'] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 80%;
+        opacity: 0;
+        z-index: 10;
+        cursor: pointer;
+    }
+    
+    .file-input>.button {
+        display: inline-block;
+        cursor: pointer;
+        background: #eee;
+        padding: 8px 16px;
+        border-radius: 2px;
+        margin-right: 8px;
+    }
+    
+    .file-input:hover>.button {
+        background: #128fff;
+        ;
+        color: white;
+    }
+    
+    .file-input>.label {
+        color: #333;
+        white-space: nowrap;
+        opacity: .3;
+    }
+    
+    .file-input.-chosen>.label {
+        opacity: 1;
     }
