@@ -4,7 +4,7 @@ body {
   background: #246895;
   background-size: cover;
   background-position: center;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .box_div {
   width: 80%;
@@ -110,6 +110,10 @@ body {
   left: 50%;
   margin: 0;
   padding: 0;
+}
+
+.scr1 {
+  letter-spacing: 0.2rem;
 }
 
 .link:active {
