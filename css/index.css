@@ -112,6 +112,10 @@ body {
   padding: 0;
 }
 
+.scr1 {
+  letter-spacing: 0.2rem;
+}
+
 .link:active {
   animation-name: slide;
 }
