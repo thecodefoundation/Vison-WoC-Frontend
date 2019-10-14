@@ -1,0 +1,171 @@
+    body {
+        background: #128fff;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .settings-svg {
+        margin: 30px;
+    }
+    
+    .settings-svg :hover img {
+        animation: bounce 0.4s linear;
+    }
+    
+    @media (min-width: 320px) and (min-height: 600px) {
+        .logo img {
+            height: 8rem;
+            position: relative;
+            bottom: 1.5rem;
+        }
+    }
+    
+    @media (min-width: 600px) and (min-height: 320px) {
+        .logo img {
+            height: 8rem;
+        }
+    }
+    
+    @media (min-width: 801px) {
+        .logo img {
+            height: 12rem;
+            position: relative;
+            bottom: 2rem;
+        }
+    }
+    
+    @media (min-width: 1281px) {
+        .logo img {
+            height: 15rem;
+            position: relative;
+            bottom: 3rem;
+        }
+    }
+    
+    .lists label {
+        font-size: 0.8rem;
+        color: #ffffff;
+    }
+    
+    .heading label {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+    
+    .lists {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .footer {
+        color: #ffffff;
+    }
+    
+    .location {
+        padding: 20px;
+        position: absolute;
+        transform: translate(-0%, -100%);
+        margin-left: 50px;
+    }
+    
+    .back {
+        margin-left: 100%;
+        transform: translate(-0%, -100%);
+        margin-top: -30px;
+    }
+    
+    input[type=text] {
+        background-color: transparent;
+        border: transparent;
+        border-bottom: 3px solid #ffffff;
+        color: #ffffff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 5px;
+        width: 60%;
+        height: 6vh;
+    }
+    
+    .lists :hover img {
+        animation: bounce 0.4s linear;
+    }
+    
+    @keyframes bounce {
+        40% {
+            transform: scale(1.4);
+        }
+        60% {
+            transform: scale(0.8);
+        }
+        80% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    input[type=submit] {
+        border: 0;
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+    
+     ::placeholder {
+        color: whitesmoke;
+        opacity: 0.6;
+    }
+    
+    .file-input {
+        display: inline-block;
+        text-align: left;
+        background: #fff;
+        padding: 16px;
+        width: 350px;
+        position: relative;
+        border-radius: 3px;
+    }
+    
+    .file-input>[type='file'] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 80%;
+        opacity: 0;
+        z-index: 10;
+        cursor: pointer;
+    }
+    
+    .file-input>.button {
+        display: inline-block;
+        cursor: pointer;
+        background: #eee;
+        padding: 8px 16px;
+        border-radius: 2px;
+        margin-right: 8px;
+    }
+    
+    .file-input:hover>.button {
+        background: #128fff;
+        ;
+        color: white;
+    }
+    
+    .file-input>.label {
+        color: #333;
+        white-space: nowrap;
+        opacity: .3;
+    }
+    
+    .file-input.-chosen>.label {
+        opacity: 1;
+    }
