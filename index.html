@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <title>Vison Search</title>
 </head>
@@ -14,7 +15,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <div class="settings-svg" align="right">
+            <div class="settings-svg right">
                 <a href="settings.html">
                     <img src="assets/baseline-settings-20px (1).svg" height="25" width="25" alt=""></a>
             </div>
@@ -22,7 +23,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 logo" align="center">
+            <div class="col-lg-12 logo">
                 <img src="assets/logo.png" alt="">
             </div>
         </div>
@@ -32,7 +33,7 @@
 
         <br>
         <div class="row">
-            <div class="col-lg-12" align="center">
+            <div class="col-lg-12">
                 <form>
                     <input type="text" class="searchtext" placeholder="Search Here" required="">
                     <span>
@@ -43,31 +44,36 @@
         </div>
         <br>
         <div class="lists">
-            <div class="row" align="center">
-                <div class="col-lg-3 col-sm-4 col-md-6 col-xs-6 bounce">
-                    <a href="link.html">
-                        <span><img src="assets/outline-link-24px.svg" height="30" width="30" alt=""/></span> <br>
-                        <label>Link</label>
-                    </a>
+            <div class="row">
+
+                <div class="box-model">
+                        <div class="bounce">
+                                <a href="link.html">
+                                    <span><img src="assets/outline-link-24px.svg" height="30" width="30" alt=""/></span> <br>
+                                    <label>Link</label>
+                                </a>
+                            </div>
+                            <div class="bounce">
+                                <a href="upload.html">
+                                    <span><img src="assets/outline-arrow_upward-24px.svg" height="30" width="30" alt=""/></span> <br>
+                                    <label>Upload</label>
+                                </a>
+                            </div>
+                            <div class="bounce">
+                                <a href="camera.html">
+                                    <span><img src="assets/outline-photo_camera-24px.svg" height="30" width="30" alt="" /></span> <br>
+                                    <label>Camera</label>
+                                </a>
+                            </div>
+                            <div class="bounce">
+                                <a href="#">
+                                    <span><img src="assets/outline-ondemand_video-24px.svg" height="30" width="30" alt="" /></span> <br>
+                                    <label>Video</label>
+                                </a>
+                            </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 bounce">
-                    <a href="upload.html">
-                        <span><img src="assets/outline-arrow_upward-24px.svg" height="30" width="30" alt=""/></span> <br>
-                        <label>Upload</label>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 bounce">
-                    <a href="camera.html">
-                        <span><img src="assets/outline-photo_camera-24px.svg" height="30" width="30" alt="" /></span> <br>
-                        <label>Camera</label>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-6 bounce">
-                    <a href="#">
-                        <span><img src="assets/outline-ondemand_video-24px.svg" height="30" width="30" alt="" /></span> <br>
-                        <label>Video</label>
-                    </a>
-                </div>
+
+                
             </div>
         </div>
         <br><br><br><br><br><br>
@@ -85,7 +91,7 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12" align="center">
+            <div id="footer-align">
                 <img src="assets\outline-scroll-24px.svg" height="45" width="200" alt="" />
                 <h6>Scroll down to see what is trending around the globe.</h6>
             </div>

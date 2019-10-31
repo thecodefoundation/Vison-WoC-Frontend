@@ -1,3 +1,4 @@
+html { font-size: 62.5%}
     body {
         background: #128fff;
         background-size: cover;
@@ -15,39 +16,41 @@
     .settings-svg :hover img {
         animation: bounce 0.4s linear;
     }
-    
-    @media (min-width: 320px) and (min-height: 600px) {
-        .logo img {
-            height: 8rem;
-            position: relative;
-            bottom: 1.5rem;
-        }
+
+    form {text-align: center;}
+
+
+    .box-model {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 10%;
+        text-align: center;
+
     }
     
-    @media (min-width: 600px) and (min-height: 320px) {
-        .logo img {
-            height: 8rem;
-        }
-    }
     
-    @media (min-width: 801px) {
-        .logo img {
-            height: 12rem;
-            position: relative;
-            bottom: 2rem;
-        }
+    .right  {
+        margin: 0 94%;
+        padding: 3rem;
     }
-    
-    @media (min-width: 1281px) {
-        .logo img {
-            height: 15rem;
-            position: relative;
-            bottom: 3rem;
-        }
+
+    .active {
+        width: 30%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 20%;
+        height: auto;
+        margin: 0 40%;
+        position: relative;
+        bottom: 1.5rem;
     }
     
     .lists label {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         color: #ffffff;
     }
     
@@ -169,3 +172,14 @@
     .file-input.-chosen>.label {
         opacity: 1;
     }
+/*Footer  -------------------------------*/
+    #footer-align {
+        margin: 0 auto;        
+    }
+    #footer-align h6 {
+              font-size: 1.3rem;
+    }
+    #footer-align img {
+        margin-left: 18%;
+    }
+/*Footer  -------------------------------*/
