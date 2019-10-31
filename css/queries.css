@@ -1,0 +1,51 @@
+
+/* big tablets to desktops from 1023 px to 1200px ( larger than our row 1140px )*/
+@media only screen and (max-width: 1200px) {
+    .right  {
+        margin: 0 90%;
+        padding: 3.4rem;
+    }
+}
+
+    
+
+
+
+/*Small tablets to big tablets  from  768 px to 1023 px*/
+    @media only screen and (max-width: 1023px) {
+        .right  {
+            margin: 0 94%;
+            padding: 3.4rem;
+        }
+        .box-model {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 10%;
+            text-align: center;
+    
+        }
+        
+    }
+
+
+
+
+/*Small Phones to small tablets  from  480px to 767 px*/
+@media only screen and (max-width: 767px) {
+    .right  {
+        margin: 0 85%;
+        padding: 3.4rem;
+    }
+  
+}
+
+
+
+/*Small Phones from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .right  {
+        margin: 0 90%;
+        padding: 3.4rem;
+    }
+}
