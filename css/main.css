@@ -16,6 +16,12 @@ html { font-size: 62.5%}
     .settings-svg :hover img {
         animation: bounce 0.4s linear;
     }
+    /*Removing inline css*/    
+    .settings-svg  img{
+        height :25 ;
+         width: 25;
+        
+    }
 
     form {text-align: center;}
 
@@ -29,10 +35,10 @@ html { font-size: 62.5%}
 
     }
     
-    
+   
     .right  {
-        margin: 0 94%;
-        padding: 3rem;
+        margin: 3rem auto auto 90%;
+        
     }
 
     .active {
@@ -94,6 +100,21 @@ html { font-size: 62.5%}
         margin: 5px;
         width: 60%;
         height: 6vh;
+    }
+    @media only screen and (max-width: 800px) {
+    input[type=text] {
+            
+            padding: 15px 32px;
+            font-size: 15px;
+            margin: 5px;
+            width: 80%;
+            height: 6vh;
+        }
+    }
+    .bounce{
+      height: 35px;
+      width: 35px;
+
     }
     
     .lists :hover img {
@@ -176,8 +197,18 @@ html { font-size: 62.5%}
     #footer-align {
         margin: 0 auto;        
     }
+    @media only screen and (max-width: 400px) {
+
+    }
+
+
     #footer-align h6 {
               font-size: 1.3rem;
+    }
+    @media only screen and (max-width: 800px) {
+    #footer-align h6 {
+              font-size: 1.3rem;
+    }
     }
     #footer-align img {
         margin-left: 18%;
